@@ -50,8 +50,8 @@ body{
     height: 110px;
     border-radius: 50%;
     object-fit: cover;
-    position: relative;
-    bottom: 13%; 
+    position: absolute;
+    bottom: -27%; 
     left: 0;
     animation: rotate 3s linear infinite;
     animation-play-state: paused;
