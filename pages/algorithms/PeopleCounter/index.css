@@ -1,0 +1,53 @@
+body
+{
+    background-image: url('./Counter.jpg');
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+#count-el
+{
+    justify-content: right;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+   
+}
+#button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#increment-btn{
+    background: darkred;
+}
+
+#save-btn{
+    background: darkgreen;
+}
